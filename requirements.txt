@@ -1,0 +1,5 @@
+fastapi # FastAPI
+uvicorn==0.20.0
+#
+paramiko==2.6.0
+psutil==5.9.4
