@@ -1,5 +1,15 @@
+Description:
+This is a fast api example to get BMC sdr info and system info
+And there are two schedule task to update the informations.
 
+Install Steps:
 pip install -r requirements.txt
+
+Execute:
+python3 api.py
+
+Try API:
+http://0.0.0.0:8877/docs
 
 
 Result:
