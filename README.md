@@ -1,18 +1,23 @@
-Description:
+## Description:
 This is a fast api example to get BMC sdr info and system info
 And there are two schedule task to update the informations.
 
-Install Steps:
+## Install Steps:
+```  shell
 pip install -r requirements.txt
+```
 
-Execute:
+## Execute:
+```  shell
 python3 api.py
+```
 
-Try API:
+## Try API:
+```  shell
 http://0.0.0.0:8877/docs
+```
 
-
-Result:
+## Result:
 
 PS D:\code\bbu_api\fast_api_server_info_example> python3 .\api.py
 C:\Users\iec030262\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\paramiko\transport.py:219: CryptographyDeprecationWarning: Blowfish has been deprecated
